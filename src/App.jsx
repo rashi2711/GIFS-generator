@@ -1,7 +1,7 @@
-// src/App.jsx
 import React from 'react';
 import Random from './components/Random';
 import Tags from './components/Tags';
+import useGif from './hooks/useGif';
 import Spinner from './components/Spinner';
 
 export default function App() {
